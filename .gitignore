@@ -1,0 +1,19 @@
+# IDE
+.idea
+
+# Byte-compiled / optimized / DLL files
+
+__pycache__/
+
+
+.DS_Store
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebook/*
+utils/example_vis.py
+utils/eval_metrics.py
+utils/interactive_sampling_inference.py
+dataloaders/*
+
