@@ -30,7 +30,7 @@ Official implementation of **Uncertainty-aware Fine-tuning of Segmentation Found
 ### Current Progress
 
 
-- [NEW] SUM (HQ-SAM arch.) Provide the training code and inference code of SUM implemented with HQ-SAM architecture [sum_on_hq-sam](sum_on_hq-sam) 
+- **[NEW]** SUM (HQ-SAM arch.) Provide the training code and inference code of SUM implemented with HQ-SAM architecture [sum_on_hq-sam](sum_on_hq-sam)
 
 - Main experiments
   - Provided the model building code [build_sam.py](build_sam.py)

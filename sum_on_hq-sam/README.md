@@ -98,4 +98,4 @@ and then refer to detailed [readme instruction](train/README.md).
 
 ## Acknowledgments
 - Thanks [SAM](https://github.com/facebookresearch/segment-anything) for their public code and released models.
-- Thanks [HQ-SAM](https://github.com/SysCV/sam-hq) for their public code and released models, this implementation largely follow the repo
+- Thanks [HQ-SAM](https://github.com/SysCV/sam-hq) for their public code and released models, this implementation largely follows the repo
