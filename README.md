@@ -28,16 +28,23 @@ Official implementation of **Uncertainty-aware Fine-tuning of Segmentation Found
 ## Status Update
 
 ### Current Progress
-- Provided the model building code [build_sam.py](build_sam.py)
-- Provided the key components of uncertainty-aware fine-tuning: 
-    - Uncertainty-aware loss [losses.py](utils%2Flosses.py)
-    - Uncertainty-aware prompt sampling [interactive_sampling.py](utils%2Finteractive_sampling.py)
+
+
+- [NEW] SUM (HQ-SAM arch.) Provide the training code and inference code of SUM implemented with HQ-SAM architecture [sum_on_hq-sam](sum_on_hq-sam) 
+
+- Main experiments
+  - Provided the model building code [build_sam.py](build_sam.py)
+  - Provided the key components of uncertainty-aware fine-tuning for the main experiment: 
+      - Uncertainty-aware loss [losses.py](utils%2Flosses.py)
+      - Uncertainty-aware prompt sampling [interactive_sampling.py](utils%2Finteractive_sampling.py)
+
 
 ### Next Steps
-- Provide demo Jupyter notebooks
-- Add support for the evaluation dataloader
-- Release model weights trained on the public dataset
-- Provide the full training code
+- Main experiments
+  - Provide demo Jupyter notebooks
+  - Add support for the evaluation dataloader
+  - Release model weights trained on the public dataset
+  - Provide the full training code
 
 ### Known Issues
 - Some scripts may require additional dependencies not listed in the prerequisites.
