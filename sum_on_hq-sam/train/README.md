@@ -35,8 +35,12 @@ data
 | |____COIFT
 | |____HRSOD
 | |____ThinObject5K
+```
 
-SAM1b dataset can be downloaded from the official website, you will need to obtain the SAM pseudo label and use the mask-refinement module to quantity the uncertainty map (##todo release the mask-refinement module and the uncertainty map)
+### SAM1B
+```
+SAM1B dataset can be downloaded from the official website, you will need to obtain the SAM pseudo label and use the mask-refinement module to quantity the uncertainty map 
+(##todo release the mask-refinement module and the uncertainty map)
 ```
 
 ## 2. Init Checkpoint
